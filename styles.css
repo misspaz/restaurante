@@ -1,43 +1,60 @@
-*{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.logo{
-    width: 120px;
-    height: 120px
+.logo {
+  width: 120px;
+  height: 120px;
 }
 
-main{
-    background-image: url("https://plus.unsplash.com/premium_photo-1670333242712-6e95c863592b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2013&q=80");
-    width: 100%;
-    height: 100%;
+.mainpic {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://plus.unsplash.com/premium_photo-1670333242712-6e95c863592b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2013&q=80");
 }
 
-section{
-    background-color: blue;
-    width: 100vw;
-    height: 100vh;
+section {
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
 }
 
-header{
-    background-color: black;
-    width: 100%;
-    height: 20%;
+header {
+  background-color: black;
+  width: 100%;
+  height: 15%;
 }
 
-nav{
-    display: inline;
-    text-align: right;
-    width: 100%;
-    height: 100%;
-    color: white;
+.sushititle {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+  font-family: sans-serif;
+  position: center;
 }
 
-.sushititle{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    font-family: sans-serif;
+.navflex {
+  display: flex;
+  text-align: right;
+  color: white;
+  font-family: sans-serif;
 }
+
+.h2subtitule{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+  position: center;
+}
+
+.pmini{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: center;
+}
+
